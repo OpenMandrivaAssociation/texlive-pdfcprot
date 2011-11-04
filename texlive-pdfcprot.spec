@@ -1,3 +1,9 @@
+# revision 18735
+# category Package
+# catalog-ctan /macros/latex/contrib/pdfcprot
+# catalog-date 2006-12-18 23:50:36 +0100
+# catalog-license lppl
+# catalog-version 1.7a
 Name:		texlive-pdfcprot
 Version:	1.7a
 Release:	1
@@ -55,6 +61,7 @@ adjustment automatically depending on the font.
 #- source
 %doc %{_texmfdistdir}/source/latex/pdfcprot/pdfcprot.dtx
 %doc %{_texmfdistdir}/source/latex/pdfcprot/pdfcprot.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ adjustment automatically depending on the font.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
