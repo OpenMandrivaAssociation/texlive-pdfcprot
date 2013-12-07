@@ -6,7 +6,7 @@
 # catalog-version 1.7a
 Name:		texlive-pdfcprot
 Version:	1.7a
-Release:	4
+Release:	5
 Summary:	Activating and setting of character protruding using pdflatex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfcprot
