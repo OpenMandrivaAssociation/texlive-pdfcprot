@@ -3,7 +3,7 @@ Version:	18735
 Release:	2
 Summary:	Activating and setting of character protruding using pdflatex
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfcprot
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdfcprot
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfcprot.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfcprot.doc.r%{version}.tar.xz
